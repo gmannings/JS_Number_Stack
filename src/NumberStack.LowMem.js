@@ -47,7 +47,7 @@ NumberStack.LowMem = function(vals) {
      * @returns {boolean}
      */
     this.isEmpty = function() {
-        return !!((inst.getSize() > 0));
+        return !!((inst.getSize() < 1));
     };
 
     /**
