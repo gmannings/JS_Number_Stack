@@ -1,0 +1,33 @@
+{
+  "name": "Stack",
+  "version": "0.1.0",
+  "description": "A set of Stack implementations in JavaScript ranging from low memory but high CPU to high memory but lower CPU",
+  "main": " ",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "karma": "~0.10.2",
+    "karma-coffee-preprocessor": "~0.1.0",
+    "karma-chrome-launcher": "~0.1.0",
+    "karma-firefox-launcher": "~0.1.0",
+    "karma-html2js-preprocessor": "~0.1.0",
+    "karma-jasmine": "~0.1.3",
+    "karma-phantomjs-launcher": "~0.1.0",
+    "karma-requirejs": "~0.1.0",
+    "karma-script-launcher": "~0.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "karma start my.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gmannings/JS_Number_Stack"
+  },
+  "author": "Gavin Mannings",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/gmannings/JS_Number_Stack/issues"
+  }
+}
